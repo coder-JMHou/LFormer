@@ -1,6 +1,7 @@
 # LFormer
 Official Implementation of LFormer (Accepted to ACM MM2024).  Complete code will be released soon!
-
+# Notes
+We provide the pre-trained weights on WV3 dataset. You can train the model on your datasets. 
 # Dataset
 Datasets: [Pansharpening](https://github.com/liangjiandeng/PanCollection) and [Hyperspectral](https://github.com/shangqideng/BDT).
 
