@@ -5,11 +5,11 @@ Official Implementation of LFormer (Accepted to ACM MM2024).  Complete code will
 #### Overall Structure
 <div align=center><img src="figs/Framework.png"/></div>
 
-#### Illustration of Linear Chains
-<div align=center><img width="500" src="figs/chains.png"/></div>
+#### Illustration of the Linear Chains
+<div align=center><img width="720" src="figs/chains.png"/></div>
 
 #### Feature Maps
-<div align=center><img width="500" src="figs/Feature_map.png"/></div>
+<div align=center><img width="720" src="figs/Feature_map.png"/></div>
 # Notes
 We provide the pre-trained weights on WV3 dataset. You can train the model on your datasets. 
 # Dataset
