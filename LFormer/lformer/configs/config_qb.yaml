@@ -1,0 +1,39 @@
+name: LFormer  # project_name
+dataset_name: 'QB'  # only support 'GF2', 'WV3', 'WV2', 'cave'
+model_name: 'LFormer'
+# train setting
+alpha: 0.1
+epoch_num: 500
+batch_size: 32
+base_lr: 1e-3
+weight_decay: 1e-6
+# parameters for scheduler lr
+gamma: 0.1
+step_size: 250
+# model setting
+pan_dim: 1
+lms_dim: 4
+attn_dim: 32
+hp_dim: 48
+n_stage: 5
+crop_batch_size: 64
+patch_size_list: [16, 64, 64]
+scale: 4
+patch_merge: True
+
+
+data_path: 'E:/HJM_Datasets/new_pan/training_qb/train_qb.h5'
+log_dir: './logs'
+# tensorboard file path
+tb_log_path: './tb_logs'
+weights_path: './weights/'
+results_path: './results/'
+gpu_list: [0]
+workers: 0
+save_epoch: 25
+
+test_mode: 'reduced'
+test_data_path: 'E:/HJM_Datasets/new_pan/test data/h5/QB/reduce_examples/test_qb_multiExm1.h5'
+#test_mode: 'full'
+#test_data_path: 'E:/HJM_Datasets/new_pan/test data/h5/QB/full_examples/test_qb_OrigScale_multiExm1.h5'
+test_weight_path: './weights/lformer_qb.pth'
