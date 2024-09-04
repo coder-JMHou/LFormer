@@ -1,5 +1,15 @@
 # LFormer
 Official Implementation of LFormer (Accepted to ACM MM2024).  Complete code will be released soon!
+
+### BiMPan
+#### Overall Structure
+<div align=center><img src="figs/Framework.PNG"/></div>
+
+#### Illustration of Linear Chains
+<div align=center><img width="500" src="figs/chains.PNG"/></div>
+
+#### Feature Maps
+<div align=center><img width="500" src="figs/Feature_map.PNG"/></div>
 # Notes
 We provide the pre-trained weights on WV3 dataset. You can train the model on your datasets. 
 # Dataset
