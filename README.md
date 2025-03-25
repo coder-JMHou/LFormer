@@ -1,4 +1,5 @@
-# LFormer
+# ![IMG](https://github.com/user-attachments/assets/433cf8eb-9ef6-4493-8040-36579127b7d9) LFormer
+
 Official Implementation of LFormer (Accepted to ACM MM2024).  Complete code will be released soon!
 
 ### BiMPan
